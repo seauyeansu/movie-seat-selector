@@ -1,29 +1,27 @@
-const initialState = {
-    counter: 0
+const seats = document.querySelectorAll('.row .seat:not(.occupied)');
+const count = document.getElementById('count');
+const total = document.getElementById('total');
+const movieSelect = document.getElementById('movie');
+
+function updateCount(state, action) {
+  const selectedSeats = document.querySelectorAll('.row .seat.selected');
+
+  const seatsIndex = [...selectedSeats].map(seat => [...seats].indexOf(seat));
+
+  localStorage.setItem('selectedSeats', JSON.stringify(seatsIndex));
+
+  const selectedSeatsCount = selectedSeats.length;
+
+  count.innerText = selectedSeatsCount;
 }
 
-const reducer = (state = initialState, action) => {
-    if (action.type === 'INCREMENT') {
-      return {
-          counter: state.counter + 1
-      }
-    }
-    if (action.type === 'DECREMENT') {
-      return {
-          counter: state.counter - 1
-      }
-    }
-    if (action.type === 'ADD5') {
-      return {
-        counter: state.counter + 5
-      }
-    }
-    if (action.type === 'SUBTRACT5') {
-      return {
-        counter: state.counter - 5
-      }
-    }
-    return state;
+function reducer(seatselectorState = [], action) {
+  switch (action.type) {
+    case 'UPDATECOUNT':
+      return updateCount(seatselectorState, action)
+    default:
+    return seatselectorState;
+  }
 };
 
 export default reducer;

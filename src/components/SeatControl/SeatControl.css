@@ -1,0 +1,36 @@
+.container {
+  perspective: 1000px;
+  margin-bottom: 30px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.cockpit{
+    height: 250px;
+    text-align: center;
+    border-radius: 50%;
+    position: relative;
+    overflow: scroll;
+    border-left: 5px;
+    border-right: 5px;
+}
+
+.seat {
+  height: 15px;
+  width: 17px;
+  margin: 3px;
+  background-color: #444451;
+  border-radius: 50%;
+  position: relative;
+}
+
+.seat .selected {
+  background-color: #6feaf6;
+}
+
+.seat .occupied {
+  background-color: #fff;
+}

@@ -30,6 +30,21 @@
   }
 }
 
+.firstclasslabel {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+  position: relative;
+}
+
+.firstclasslabel:nth-of-type(2) {
+  margin-right: 22px;
+}
+
+.firstclasslabel:nth-last-of-type(2) {
+  margin-left: 22px;
+}
+
 .label {
   height: 15px;
   width: 17px;
@@ -43,6 +58,23 @@
 
 .label:nth-last-of-type(3) {
   margin-left: 18px;
+}
+
+.firstclassseat {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+  background-color: #444451;
+  border-radius: 50%;
+  position: relative;
+}
+
+.firstclassseat:nth-of-type(2) {
+  margin-right: 22px;
+}
+
+.firstclassseat:nth-last-of-type(2) {
+  margin-left: 22px;
 }
 
 .seat {

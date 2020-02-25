@@ -10,6 +10,52 @@ const seatControl = (props) => (
 
   <div class="fuselage">
   <div class="row">
+    <div class="class">First Class</div>
+  </div>
+  <div class="row">
+    <div class="firstclasslabel">A</div>
+    <div class="firstclasslabel">B</div>
+    <div class="firstclasslabel">C</div>
+    <div class="firstclasslabel">D</div>
+    <div class="firstclasslabel">E</div>
+    <div class="firstclasslabel">F</div>
+  </div>
+  <div class="row">
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+  </div>
+  <div class="row">
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+  </div>
+  <div class="row">
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+  </div>
+  <div class="row">
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+    <div class="firstclassseat"></div>
+  </div>
+  <div class="row">
+    <div class="class">Economy</div>
+  </div>
+  <div class="row">
     <div class="label">A</div>
     <div class="label">B</div>
     <div class="label">C</div>

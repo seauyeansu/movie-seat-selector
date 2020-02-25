@@ -13,49 +13,60 @@ const seatControl = (props) => (
     <div class="class">First Class</div>
   </div>
   <div class="row">
+    <div class="firstclasslabel"></div>
     <div class="firstclasslabel">A</div>
     <div class="firstclasslabel">B</div>
     <div class="firstclasslabel">C</div>
     <div class="firstclasslabel">D</div>
     <div class="firstclasslabel">E</div>
     <div class="firstclasslabel">F</div>
+    <div class="firstclasslabel"></div>
   </div>
   <div class="row">
+    <div class="firstclasswhiteseat">1</div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
+    <div class="firstclasswhiteseat">1</div>
   </div>
   <div class="row">
+    <div class="firstclasswhiteseat">2</div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
+    <div class="firstclasswhiteseat">2</div>
   </div>
   <div class="row">
+    <div class="firstclasswhiteseat">3</div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
+    <div class="firstclasswhiteseat">3</div>
   </div>
   <div class="row">
+    <div class="firstclasswhiteseat">4</div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
+    <div class="firstclasswhiteseat">4</div>
   </div>
   <div class="row">
     <div class="class">Economy</div>
   </div>
   <div class="row">
+    <div class="label"></div>
     <div class="label">A</div>
     <div class="label">B</div>
     <div class="label">C</div>
@@ -66,8 +77,10 @@ const seatControl = (props) => (
     <div class="label">H</div>
     <div class="label">I</div>
     <div class="label">J</div>
+    <div class="label"></div>
   </div>
   <div class="row">
+    <div class="whiteseat">1</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -78,8 +91,10 @@ const seatControl = (props) => (
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">1</div>
   </div>
   <div class="row">
+    <div class="whiteseat">2</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -90,8 +105,10 @@ const seatControl = (props) => (
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">2</div>
   </div>
   <div class="row">
+    <div class="whiteseat">3</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -102,8 +119,10 @@ const seatControl = (props) => (
     <div class="seat occupied"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">3</div>
   </div>
   <div class="row">
+    <div class="whiteseat">4</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -114,8 +133,10 @@ const seatControl = (props) => (
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">4</div>
   </div>
   <div class="row">
+    <div class="whiteseat">5</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -126,8 +147,10 @@ const seatControl = (props) => (
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">5</div>
   </div>
   <div class="row">
+    <div class="whiteseat">6</div>
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
@@ -138,6 +161,7 @@ const seatControl = (props) => (
     <div class="seat"></div>
     <div class="seat"></div>
     <div class="seat"></div>
+    <div class="whiteseat">6</div>
   </div>
   </div>
 </div>

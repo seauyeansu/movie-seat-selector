@@ -33,7 +33,7 @@
 .firstclasslabel {
   height: 22px;
   width: 22px;
-  margin: 12px;
+  margin: 10px;
 }
 
 .firstclasslabel:nth-of-type(3) {
@@ -62,7 +62,7 @@
 .firstclasswhiteseat {
   height: 22px;
   width: 22px;
-  margin: 12px;
+  margin: 10px;
   background-color: white;
   border-radius: 50%;
   position: relative;

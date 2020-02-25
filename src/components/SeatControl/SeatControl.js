@@ -4,8 +4,8 @@ import './SeatControl.css';
 
 const seatControl = (props) => (
 <div class="container">
-    <div className="Cockpit">
-        <p>Please select a seat</p>
+    <div className="cockpit">
+        <h1>Please select a seat</h1>
     </div>
 
   <div class="row">

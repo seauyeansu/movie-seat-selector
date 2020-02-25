@@ -10,7 +10,7 @@ class Counter extends Component {
         return (
             <div>
                 <CounterOutput value={this.props.ctr} />
-                <SeatControl />
+                <SeatControl clicked={this.props.onUpdateCount}/>
                 <CounterControl clicked={this.props.onUpdateCount} />
             </div>
         );

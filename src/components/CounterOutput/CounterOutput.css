@@ -2,7 +2,8 @@
     width: 100%;
     background-color: #e9ebee;
     color: black;
-    font-size: 1.8rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
     text-align: center;
     padding: 20px 0;
     box-sizing: border-box;

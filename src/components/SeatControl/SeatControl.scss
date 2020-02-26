@@ -1,3 +1,4 @@
+
 .container {
   margin: 20px auto;
   max-width: 400px;
@@ -15,8 +16,10 @@
     border-color: #C0C0C0;
     text-align: center;
     border-bottom: 5px solid #C0C0C0;
+    background-color: #fafafa;
   }
-  h1 {
+  h2 {
+   font-family: 'Lato', sans-serif;
    width: 60%;
    margin: 100px auto 35px auto;
  }
@@ -24,6 +27,7 @@
 .fuselage {
   border-right: 5px solid #d8d8d8;
   border-left: 5px solid #d8d8d8;
+  background-color: #fafafa;
 }
 
 hr {
@@ -70,7 +74,7 @@ hr {
   height: 22px;
   width: 22px;
   margin: 10px;
-  background-color: white;
+  background-color: #fafafa;
   border-radius: 50%;
   position: relative;
   color: #D3D3D3;
@@ -120,12 +124,16 @@ hr {
   color: #D3D3D3;
 }
 
-.seat .selected {
+.seat.selected {
   background-color: #6feaf6;
 }
 
-.seat .occupied {
-  background-color: #fff;
+.firstclassseat.occupied {
+  background-color: #32527b;
+}
+
+.seat.occupied {
+  background-color: #32527b;
 }
 
 .seat:nth-of-type(3) {

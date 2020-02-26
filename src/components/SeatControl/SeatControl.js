@@ -5,7 +5,7 @@ import './SeatControl.scss';
 const seatControl = (props) => (
 <div class="container">
     <div className="cockpit">
-        <h1>Please select a seat</h1>
+        <h2>Please select a seat</h2>
     </div>
 
   <div class="fuselage">
@@ -24,7 +24,7 @@ const seatControl = (props) => (
   </div>
   <div class="row">
     <div class="firstclasswhiteseat">1</div>
-    <div class="firstclassseat"></div>
+    <div class="firstclassseat occupied"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
@@ -35,7 +35,7 @@ const seatControl = (props) => (
   <div class="row">
     <div class="firstclasswhiteseat">2</div>
     <div class="firstclassseat"></div>
-    <div class="firstclassseat"></div>
+    <div class="firstclassseat occupied"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
@@ -47,7 +47,7 @@ const seatControl = (props) => (
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
-    <div class="firstclassseat"></div>
+    <div class="firstclassseat occupied"></div>
     <div class="firstclassseat"></div>
     <div class="firstclassseat"></div>
     <div class="firstclasswhiteseat">3</div>

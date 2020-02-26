@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './CounterControl.css';
+import './CounterControl.scss';
 
 const counterControl = (props) => (
     <div className="CounterControl" onClick={props.clicked}>

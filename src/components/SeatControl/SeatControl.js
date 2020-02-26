@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './SeatControl.css';
+import './SeatControl.scss';
 
 const seatControl = (props) => (
 <div class="container">
@@ -10,7 +10,7 @@ const seatControl = (props) => (
 
   <div class="fuselage">
   <div class="row">
-    <div class="class">First Class</div>
+    <div class="seatcategory"><p><hr/>First Class<hr/></p></div>
   </div>
   <div class="row">
     <div class="firstclasslabel"></div>
@@ -63,7 +63,7 @@ const seatControl = (props) => (
     <div class="firstclasswhiteseat">4</div>
   </div>
   <div class="row">
-    <div class="class">Economy</div>
+    <div class="seatcategory"><p><hr/>Economy<hr/></p></div>
   </div>
   <div class="row">
     <div class="label"></div>

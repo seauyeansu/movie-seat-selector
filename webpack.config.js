@@ -7,6 +7,9 @@ module.exports = {
     path: path.resolve(__dirname, './public'),
     filename: 'index_bundle.js'
   },
+    devServer: {
+    open: true
+  },
     module: {
       rules: [
         { test: /\.(js)$/, use: {
@@ -32,6 +35,6 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: 'src/index.html'
-    })
+    }),
   ]
 }

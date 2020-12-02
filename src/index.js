@@ -1,14 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { createStore } from 'redux';
-import { Provider } from 'react-redux';
+import Seatcontrol from './components/seatControl/seatControl.js';
+import Flightselector from './components/flightSelector/flightSelector.js';
+import Legend from './components/legend/legend.js';
+import './index.scss';
 
-import './index.css';
-import App from './App';
-import rootReducer from './store/reducer';
+class App extends React.Component {
+  render() {
+    return (
+      <div>	
+    	 <div>
+    	  	<Flightselector />
+    	 </div>
+    	 <div>
+    	 	<Legend />
+    	 </div>	
+    	 <div>
+     		<Seatcontrol />
+     	 </div>	
+      </div>
+    );
+  }
+}
 
-const store = createStore(rootReducer);
-
-ReactDOM.render(<Provider store={store}><App /></Provider>,
-  document.getElementById('app')
-)
+ReactDOM.render((
+	<App />
+	),
+	document.getElementById('app')
+	)

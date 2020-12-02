@@ -7,7 +7,7 @@ constructor(props) {
 	super(props)
 
 	this.state = {
-		 blue: true
+		 gray: true
 	}
 
 	this.clickHandler = this.clickHandler.bind(this)
@@ -15,11 +15,11 @@ constructor(props) {
 
 clickHandler() {
 	this.setState({
-		blue: !this.state.blue
+		gray: !this.state.gray
 	})
 }
 	render () {
-		let btn_class = this.state.blue ? "blueButton" : "redButton";
+		let btn_class = this.state.gray ? "grayButton" : "blueButton";
 		return (
 			<button className = {btn_class}
 			class = "economyavailableseat"

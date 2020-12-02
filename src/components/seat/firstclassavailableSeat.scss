@@ -1,9 +1,7 @@
 .firstclassavailableseat {
-  display: inline-block;
   height: 22px;
   width: 22px;
   margin: 6px;
-  background-color: #D3D3D3;
   border-radius: 50%;
   position: relative;
   &:hover {
@@ -12,10 +10,10 @@
   }
 }
 
-.redButton {
+.blueButton {
   background-color: #00ffff;
 }
 
-.blueButton {
+.grayButton {
   background-color: #D3D3D3;
 }

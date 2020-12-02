@@ -1,0 +1,21 @@
+.firstclassavailableseat {
+  display: inline-block;
+  height: 22px;
+  width: 22px;
+  margin: 6px;
+  background-color: #D3D3D3;
+  border-radius: 50%;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 1px #5C6AFF;
+  }
+}
+
+.redButton {
+  background-color: #00ffff;
+}
+
+.blueButton {
+  background-color: #D3D3D3;
+}

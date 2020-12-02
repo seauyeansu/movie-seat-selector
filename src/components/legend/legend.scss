@@ -1,0 +1,40 @@
+.occupied {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #8470FF;
+  margin-left: 5px;
+}
+
+.available {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #D3D3D3;
+  margin-left: 5px;
+}
+
+.selected {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #00ffff;
+  margin-left: 5px;
+}
+
+.row {
+	align-items: center;
+	color: white;
+}
+
+.col1 {
+	margin: auto
+}
+
+.col2 {
+	margin: auto
+}
+
+.col3 {
+	margin: auto
+}

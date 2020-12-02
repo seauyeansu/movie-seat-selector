@@ -1,0 +1,20 @@
+.economyavailableseat {
+  height: 17px;
+  width: 17px;
+  margin: 5px;
+  border-radius: 50%;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+    box-shadow: 0 0 0px 2px #5C6AFF;
+  }
+}
+
+
+.redButton {
+  background-color: #00ffff;
+}
+
+.blueButton {
+  background-color: #D3D3D3;
+}
